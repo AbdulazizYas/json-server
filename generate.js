@@ -1,6 +1,6 @@
 const { faker } = require("@faker-js/faker");
 
-module.exports = () => {
+function generate() {
   const studentsNum = 34;
   const coursesNum = 18;
 
@@ -39,4 +39,6 @@ module.exports = () => {
   };
 
   return data;
-};
+}
+
+console.log(JSON.stringify(generate(), null, 2));

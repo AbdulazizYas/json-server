@@ -1,0 +1,420 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Generic Fresh Bike",
+      "price": "SAR371",
+      "status": "unlisted"
+    },
+    {
+      "id": 2,
+      "name": "Generic Concrete Hat",
+      "price": "SAR418",
+      "status": "published"
+    },
+    {
+      "id": 3,
+      "name": "Elegant Fresh Chicken",
+      "price": "SAR99",
+      "status": "unlisted"
+    },
+    {
+      "id": 4,
+      "name": "Intelligent Concrete Sausages",
+      "price": "SAR190",
+      "status": "draft"
+    },
+    {
+      "id": 5,
+      "name": "Handmade Plastic Salad",
+      "price": "SAR201",
+      "status": "unlisted"
+    },
+    {
+      "id": 6,
+      "name": "Oriental Rubber Chair",
+      "price": "SAR252",
+      "status": "unlisted"
+    },
+    {
+      "id": 7,
+      "name": "Generic Plastic Pants",
+      "price": "SAR151",
+      "status": "draft"
+    },
+    {
+      "id": 8,
+      "name": "Bespoke Wooden Tuna",
+      "price": "SAR340",
+      "status": "draft"
+    },
+    {
+      "id": 9,
+      "name": "Fantastic Granite Cheese",
+      "price": "SAR244",
+      "status": "published"
+    },
+    {
+      "id": 10,
+      "name": "Licensed Rubber Soap",
+      "price": "SAR332",
+      "status": "published"
+    },
+    {
+      "id": 11,
+      "name": "Sleek Concrete Bike",
+      "price": "SAR140",
+      "status": "unlisted"
+    },
+    {
+      "id": 12,
+      "name": "Fantastic Cotton Shoes",
+      "price": "SAR104",
+      "status": "draft"
+    },
+    {
+      "id": 13,
+      "name": "Fantastic Cotton Chips",
+      "price": "SAR162",
+      "status": "draft"
+    },
+    {
+      "id": 14,
+      "name": "Handcrafted Soft Sausages",
+      "price": "SAR135",
+      "status": "published"
+    },
+    {
+      "id": 15,
+      "name": "Oriental Granite Hat",
+      "price": "SAR221",
+      "status": "published"
+    },
+    {
+      "id": 16,
+      "name": "Bespoke Fresh Hat",
+      "price": "SAR343",
+      "status": "published"
+    },
+    {
+      "id": 17,
+      "name": "Ergonomic Metal Ball",
+      "price": "SAR251",
+      "status": "draft"
+    },
+    {
+      "id": 18,
+      "name": "Licensed Concrete Cheese",
+      "price": "SAR414",
+      "status": "unlisted"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Esther Jaskolski IV",
+      "email": "Jacynthe_Cormier21@example.net",
+      "joinedDate": "2023-07-02T01:08:25.095Z",
+      "progress": 47.05,
+      "materialsWatched": 11,
+      "courseId": 11
+    },
+    {
+      "id": 2,
+      "name": "Joey Koch",
+      "email": "Misael.Boyer@example.com",
+      "joinedDate": "2023-07-11T08:57:41.966Z",
+      "progress": 63.73,
+      "materialsWatched": 22,
+      "courseId": 11
+    },
+    {
+      "id": 3,
+      "name": "Adam Goodwin",
+      "email": "Kamron_Corwin@example.org",
+      "joinedDate": "2023-07-05T00:21:07.978Z",
+      "progress": 67.4,
+      "materialsWatched": 41,
+      "courseId": 11
+    },
+    {
+      "id": 4,
+      "name": "Mrs. Sandy Rempel",
+      "email": "Jay_Heller@example.com",
+      "joinedDate": "2023-07-09T08:17:32.205Z",
+      "progress": 29.25,
+      "materialsWatched": 12,
+      "courseId": 18
+    },
+    {
+      "id": 5,
+      "name": "Rudolph Goyette",
+      "email": "Marjory_Prosacco-Abshire27@example.org",
+      "joinedDate": "2023-07-14T12:58:23.000Z",
+      "progress": 34.88,
+      "materialsWatched": 5,
+      "courseId": 17
+    },
+    {
+      "id": 6,
+      "name": "Anne Daniel",
+      "email": "Vincenza61@example.org",
+      "joinedDate": "2023-07-08T15:53:21.041Z",
+      "progress": 74.91,
+      "materialsWatched": 23,
+      "courseId": 16
+    },
+    {
+      "id": 7,
+      "name": "Mrs. Lauren O'Hara",
+      "email": "Holden.Kemmer78@example.com",
+      "joinedDate": "2023-07-13T18:52:57.653Z",
+      "progress": 57.09,
+      "materialsWatched": 40,
+      "courseId": 18
+    },
+    {
+      "id": 8,
+      "name": "Aubrey Collier",
+      "email": "Easton.Daniel11@example.org",
+      "joinedDate": "2023-07-13T09:09:58.312Z",
+      "progress": 84.17,
+      "materialsWatched": 1,
+      "courseId": 6
+    },
+    {
+      "id": 9,
+      "name": "Micheal Bernier",
+      "email": "Norwood.Ward@example.com",
+      "joinedDate": "2023-07-15T18:31:41.507Z",
+      "progress": 93.19,
+      "materialsWatched": 22,
+      "courseId": 3
+    },
+    {
+      "id": 10,
+      "name": "Freda Windler Sr.",
+      "email": "Jayson.Kuhlman85@example.net",
+      "joinedDate": "2023-07-12T22:58:09.381Z",
+      "progress": 91.6,
+      "materialsWatched": 10,
+      "courseId": 6
+    },
+    {
+      "id": 11,
+      "name": "Harry McDermott II",
+      "email": "Camren.Purdy50@example.net",
+      "joinedDate": "2023-07-03T20:26:45.816Z",
+      "progress": 22.06,
+      "materialsWatched": 23,
+      "courseId": 13
+    },
+    {
+      "id": 12,
+      "name": "Brenda Deckow V",
+      "email": "Jarret_Lockman24@example.com",
+      "joinedDate": "2023-07-07T07:39:43.219Z",
+      "progress": 10.36,
+      "materialsWatched": 12,
+      "courseId": 16
+    },
+    {
+      "id": 13,
+      "name": "Sophie Johns",
+      "email": "Samir_Rosenbaum@example.net",
+      "joinedDate": "2023-07-02T04:00:35.570Z",
+      "progress": 85.13,
+      "materialsWatched": 11,
+      "courseId": 8
+    },
+    {
+      "id": 14,
+      "name": "Preston Emmerich",
+      "email": "Hallie_Miller72@example.net",
+      "joinedDate": "2023-07-04T09:07:56.540Z",
+      "progress": 80.93,
+      "materialsWatched": 23,
+      "courseId": 1
+    },
+    {
+      "id": 15,
+      "name": "Angela Kuhic",
+      "email": "Sage_Little77@example.com",
+      "joinedDate": "2023-07-03T16:50:28.275Z",
+      "progress": 19.36,
+      "materialsWatched": 18,
+      "courseId": 3
+    },
+    {
+      "id": 16,
+      "name": "Sammy Dietrich",
+      "email": "Mervin.Kirlin@example.org",
+      "joinedDate": "2023-07-02T01:58:20.191Z",
+      "progress": 50.55,
+      "materialsWatched": 13,
+      "courseId": 15
+    },
+    {
+      "id": 17,
+      "name": "Vivian Metz",
+      "email": "Abe72@example.org",
+      "joinedDate": "2023-07-09T00:32:31.987Z",
+      "progress": 57.48,
+      "materialsWatched": 10,
+      "courseId": 9
+    },
+    {
+      "id": 18,
+      "name": "Dr. Suzanne Feest",
+      "email": "Emie.Hane@example.com",
+      "joinedDate": "2023-07-01T18:56:44.602Z",
+      "progress": 88.23,
+      "materialsWatched": 17,
+      "courseId": 6
+    },
+    {
+      "id": 19,
+      "name": "Lynn Crist-Gislason",
+      "email": "Doris44@example.net",
+      "joinedDate": "2023-07-02T03:58:50.454Z",
+      "progress": 83.74,
+      "materialsWatched": 35,
+      "courseId": 4
+    },
+    {
+      "id": 20,
+      "name": "Daniel Marvin",
+      "email": "Bennie21@example.org",
+      "joinedDate": "2023-07-13T18:41:41.893Z",
+      "progress": 42.96,
+      "materialsWatched": 17,
+      "courseId": 8
+    },
+    {
+      "id": 21,
+      "name": "Scott Kirlin Jr.",
+      "email": "Loma_Weimann@example.net",
+      "joinedDate": "2023-07-05T11:29:56.933Z",
+      "progress": 21.04,
+      "materialsWatched": 28,
+      "courseId": 6
+    },
+    {
+      "id": 22,
+      "name": "Mrs. Wendy Cummings",
+      "email": "Murphy78@example.net",
+      "joinedDate": "2023-07-02T02:07:53.649Z",
+      "progress": 33.82,
+      "materialsWatched": 12,
+      "courseId": 9
+    },
+    {
+      "id": 23,
+      "name": "Courtney Kohler",
+      "email": "Jaydon24@example.net",
+      "joinedDate": "2023-07-12T05:46:52.057Z",
+      "progress": 80,
+      "materialsWatched": 29,
+      "courseId": 17
+    },
+    {
+      "id": 24,
+      "name": "Adrienne Crona",
+      "email": "Garfield48@example.com",
+      "joinedDate": "2023-07-14T08:16:51.203Z",
+      "progress": 11.27,
+      "materialsWatched": 31,
+      "courseId": 12
+    },
+    {
+      "id": 25,
+      "name": "Sonia Boehm",
+      "email": "Johnnie_Hamill@example.com",
+      "joinedDate": "2023-07-07T05:52:22.205Z",
+      "progress": 89.82,
+      "materialsWatched": 12,
+      "courseId": 2
+    },
+    {
+      "id": 26,
+      "name": "Constance Medhurst",
+      "email": "Clay.Reilly-Klocko@example.org",
+      "joinedDate": "2023-07-10T19:37:47.107Z",
+      "progress": 51.95,
+      "materialsWatched": 27,
+      "courseId": 3
+    },
+    {
+      "id": 27,
+      "name": "Madeline Bayer",
+      "email": "Selina38@example.com",
+      "joinedDate": "2023-07-11T04:58:50.718Z",
+      "progress": 93,
+      "materialsWatched": 2,
+      "courseId": 14
+    },
+    {
+      "id": 28,
+      "name": "Milton Langworth",
+      "email": "Ross18@example.net",
+      "joinedDate": "2023-07-14T21:22:20.841Z",
+      "progress": 97.79,
+      "materialsWatched": 26,
+      "courseId": 1
+    },
+    {
+      "id": 29,
+      "name": "Marshall Hermiston",
+      "email": "Madaline.Schuppe63@example.com",
+      "joinedDate": "2023-07-06T20:04:03.266Z",
+      "progress": 34.82,
+      "materialsWatched": 2,
+      "courseId": 13
+    },
+    {
+      "id": 30,
+      "name": "Horace Ward-Stoltenberg",
+      "email": "Katherine.Jones79@example.org",
+      "joinedDate": "2023-07-04T13:20:30.688Z",
+      "progress": 72.72,
+      "materialsWatched": 32,
+      "courseId": 1
+    },
+    {
+      "id": 31,
+      "name": "Roberto Herman",
+      "email": "Raegan.Hermiston-Skiles@example.org",
+      "joinedDate": "2023-07-05T12:36:22.920Z",
+      "progress": 50.7,
+      "materialsWatched": 29,
+      "courseId": 17
+    },
+    {
+      "id": 32,
+      "name": "Angelica Franecki",
+      "email": "Joaquin38@example.org",
+      "joinedDate": "2023-07-15T02:32:29.536Z",
+      "progress": 58.4,
+      "materialsWatched": 28,
+      "courseId": 16
+    },
+    {
+      "id": 33,
+      "name": "Ms. Tamara Bradtke",
+      "email": "Bailee.Krajcik@example.com",
+      "joinedDate": "2023-07-10T07:29:43.103Z",
+      "progress": 10.37,
+      "materialsWatched": 24,
+      "courseId": 3
+    },
+    {
+      "id": 34,
+      "name": "Seth Swaniawski",
+      "email": "Hope_Balistreri93@example.net",
+      "joinedDate": "2023-07-11T08:59:57.403Z",
+      "progress": 10.96,
+      "materialsWatched": 32,
+      "courseId": 18
+    }
+  ]
+}
