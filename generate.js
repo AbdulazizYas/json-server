@@ -1,12 +1,10 @@
 const { faker } = require("@faker-js/faker");
 
 function generateTaxonomies(count) {
-  const taxos = {
-    data: [],
-  };
+  const taxos = [];
 
   for (let i = 0; i < count; i++) {
-    taxos.data.push({
+    taxos.push({
       id: i + 1,
       name: faker.commerce.department(),
       icon: null,
@@ -19,13 +17,11 @@ function generateTaxonomies(count) {
 }
 
 function generateCourses(count, cats) {
-  const courses = {
-    data: [],
-  };
-  const levels = cats.data.filter((cat) => cat.type === 3);
+  const courses = [];
+  const levels = cats.filter((cat) => cat.type === 3);
 
   for (let i = 0; i < count; i++) {
-    courses.data.push({
+    courses.push({
       id: i + 1,
       title: faker.commerce.productName(),
       url: faker.internet.url(),
@@ -81,14 +77,12 @@ function generateCourses(count, cats) {
 }
 
 function generateEnrollements(count, courses) {
-  const enrolls = {
-    data: [],
-  };
+  const enrolls = [];
 
   for (let i = 0; i < count; i++) {
-    enrolls.data.push({
+    enrolls.push({
       id: i + 1,
-      course: faker.helpers.arrayElement(courses.data),
+      course: faker.helpers.arrayElement(courses),
       member: {
         id: faker.number.int({ min: 1, max: 14 }),
         first_name: faker.person.firstName(),
