@@ -121,6 +121,122 @@ function generateEnrollements(count, courses) {
   return enrolls;
 }
 
+function generateCourseStats(courses) {
+  const coursesStats = [];
+
+  const statsListCount = courses.length;
+  for (let i = 0; i < statsListCount; i++) {
+    coursesStats.push({
+      comments: faker.number.int({ min: 0, max: 68 }),
+      reviews: faker.number.int({ min: 0, max: 68 }),
+      students: {
+        enrolled: faker.number.int({ min: 0, max: 68 }),
+        started: faker.number.int({ min: 0, max: 68 }),
+        completed: faker.number.int({ min: 0, max: 68 }),
+      },
+      sales: faker.number.int({ min: 0, max: 68 }),
+      course_id: faker.number.int({ min: 1, max: statsListCount }),
+    });
+  }
+
+  return coursesStats;
+}
+
+function generateComments(coursesCount) {
+  const comments = [];
+
+  const count = coursesCount * 16;
+
+  for (let i = 0; i < count; i++) {
+    comments.push({
+      id: i + 1,
+      content: faker.lorem.paragraph(),
+      parent_id: null,
+      course_id: faker.number.int({ min: 1, max: coursesCount }),
+      member: {
+        id: faker.number.int({ min: 1, max: 14 }),
+        first_name: faker.person.firstName(),
+        last_name: faker.person.lastName(),
+        name: faker.person.fullName(),
+        username: faker.internet.displayName(),
+        avatar: faker.internet.url(),
+        bio: null,
+        job_title: null,
+        education: null,
+        url: faker.internet.url(),
+        national_id: null,
+        country_code: "KSA",
+        currency: "SAR",
+        gender: faker.helpers.arrayElement(["male", "female"]),
+        skills: null,
+        email: faker.internet.email(),
+        phone_code: 966,
+        phone: "537812391",
+        international_phone: "966537812391",
+        dob: "2022-05-12",
+        email_verified_at: null,
+        status: 1,
+        last_seen_at: "2022-12-29T10:02:11.000000Z",
+        updated_at: "2022-11-21T09:48:35.000000Z",
+        created_at: "2022-05-10T06:14:54.000000Z",
+      },
+      children: [],
+      created_at: faker.date.future(),
+      updated_at: "2022-11-13T11:19:42.000000Z",
+    });
+  }
+
+  return comments;
+}
+
+function generateReviews(coursesCount) {
+  const reviews = [];
+
+  const count = coursesCount * 8;
+
+  for (let i = 0; i < count; i++) {
+    reviews.push({
+      id: i + 1,
+      title: faker.lorem.sentence(5),
+      content: faker.lorem.sentence(10),
+      rating: faker.number.int({ min: 0, max: 5 }),
+      course_id: faker.number.int({ min: 1, max: coursesCount }),
+      member: {
+        id: faker.number.int({ min: 1, max: 14 }),
+        first_name: faker.person.firstName(),
+        last_name: faker.person.lastName(),
+        name: faker.person.fullName(),
+        username: faker.internet.displayName(),
+        avatar: faker.internet.url(),
+        bio: null,
+        job_title: null,
+        education: null,
+        url: faker.internet.url(),
+        national_id: null,
+        country_code: "KSA",
+        currency: "SAR",
+        gender: faker.helpers.arrayElement(["male", "female"]),
+        skills: null,
+        email: faker.internet.email(),
+        phone_code: 966,
+        phone: "537812391",
+        international_phone: "966537812391",
+        dob: "2022-05-12",
+        email_verified_at: null,
+        status: 1,
+        last_seen_at: "2022-12-29T10:02:11.000000Z",
+        updated_at: "2022-11-21T09:48:35.000000Z",
+        created_at: "2022-05-10T06:14:54.000000Z",
+      },
+      commentable_id: 10,
+      path: "https://maher.msaaq.test/courses/course-2-copy-y2np3mrbjqoqwlml#comment-47",
+      updated_at: "2022-09-21T12:30:58.000000Z",
+      created_at: faker.date.future(),
+    });
+  }
+
+  return reviews;
+}
 function generate() {
   const taxosCount = 74;
   const coursesCount = 110;
@@ -129,11 +245,17 @@ function generate() {
   const taxonomies = generateTaxonomies(taxosCount);
   const courses = generateCourses(coursesCount, taxonomies);
   const enrollments = generateEnrollements(enrollsCount, courses);
+  const coursesStats = generateCourseStats(courses);
+  const comments = generateComments(coursesCount);
+  const reviews = generateReviews(coursesCount);
 
   return {
     taxonomies,
     courses,
     enrollments,
+    coursesStats,
+    comments,
+    reviews,
   };
 }
 
