@@ -6,7 +6,7 @@ function generateTaxonomies(count) {
   for (let i = 0; i < count; i++) {
     taxos.push({
       id: i + 1,
-      name: faker.commerce.department(),
+      name: "instructor" + faker.person.firstName(),
       icon: null,
       description: null,
       type: faker.number.int({ min: 1, max: 4 }),
