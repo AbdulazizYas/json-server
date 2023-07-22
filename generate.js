@@ -135,7 +135,7 @@ function generateCourseStats(courses) {
         completed: faker.number.int({ min: 0, max: 68 }),
       },
       sales: faker.number.int({ min: 0, max: 68 }),
-      course_id: faker.number.int({ min: 1, max: statsListCount }),
+      id: i + 1,
     });
   }
 
